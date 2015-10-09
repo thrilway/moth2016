@@ -1,0 +1,29 @@
+h2 {
+}
+
+.description {
+  color : lightgray;
+  font-size : 2.5rem;
+  font-weight : normal;
+}
+@media (min-width: 750px){
+  .description>div {
+    display : inline-block;
+    vertical-align: top;
+    width : 100%;
+  }
+}
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+.navbar-item {
+  display: inherit;
+  float: left;
+}
+.navbar-link {
+  display: inherit;
+  margin-right: 35px;
+}
+
